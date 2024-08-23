@@ -1,0 +1,54 @@
+Ide Awal: 
+ingin membuat sebuah API yang menyimpan seluruh pengeluaran uang untuk seorang mahasiswa.
+
+Metode get : dapat melihat pengeluaran pada hari mana aja dengan format tanggal, bulan dan tahun.
+
+1. Jika menunjukkan Tahun aja, maka akan menunjukkan seluruh pengeluaran uang di tahun tersebut.
+2. Jika menunjukkan Tahun dan bulan, akan menunjukkan seluruh pengeluaran uang pada bulan pada tahun tersebut.
+3. Jika menunjukkan Tahun, bulan, dan hari dalam tanggal. Akan menunjukkan seluruh pengeluaran uang pada hari tersebut.
+
+Metode post : Dapat menambahkan informasi dalam JSON mengenai pengeluaran uang tersebut.
+
+contoh format Body add = 
+{
+	"Jenis-Pengeluaran" : "makan", 
+	"Nominal Pengeluaran" : "Rp 20.000",
+	"Tujuan pengeluaran" : "Ingin makan",
+	"Bulan": "12",
+	"Hari": "Selasa",
+	"Tahun":"2023",
+	"Tanggal": "12/12/2023",    
+}
+
+Metode put : dapat edit isi json file dengan harus ada format tanggal. dan salah satu informasi dalam body tersebut.
+
+contoh format Body edit = 
+{
+	"Hari": "Senin",
+	"Tanggal": "12/12/2023",
+}
+
+Metode delete : dapat delete isi file json dengan format Tanggal.
+
+Contoh format body delete =
+{
+	"Tanggal": "12/12/2023",
+}
+
+
+
+
+
+
+
+Jika, tidak ketemu dalam file json, maka akan mengeluarkan error message seperti:
+
+{
+	"error": "Tidak dapat menemukan data dalam database",
+}
+
+
+Jika salah input format, maka akan mengek=luarkan error message seperti:
+{
+	"error": "format input salah",
+}      

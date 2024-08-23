@@ -1,0 +1,31 @@
+Dalam Pembuatan API menggunakan NodeJS, kita harus install beberapa npm. npm yang disarankan untuk install adalah:
+
+1. npm install express (untuk membuat server dalam node js)
+2. npm i -D jest (untuk test code kita biar hasil sesuai)
+3. npm i -D nodemon (untuk selalu update jika kita melakukan perubuahan dalam kodingan kita)
+
+Dalam pembuatan projek, kita harus mulai:
+1. npm init.
+2. kalau bisa buat folder Bernama src untuk simpan seluruh kodingan.
+3. buat folder modules untuk simpan fungsi kodingan javascript.
+4, kita akan gunakan server.js untuk membuat server Utama API.
+5. tambahkan "dev": "nodemon src/server.js" dalam "scripts" package.json.
+
+Untuk connect system API kita ke dalam DataBase,
+kita harus download "npm i mysql2", dan "npm install dotenv" 
+lalu kita harus membuat file .env untuk menyimpan data data dalam MySQL yang sudah dibuat seperti:
+MYSQL_DB_HOST=
+MYSQL_DB_PORT=
+MYSQL_DB_NAME=
+MYSQL_DB_USER=
+MYSQL_DB_PASS=
+
+USE mysql;
+SELECT User, Host FROM user;
+SELECT * FROM user;
+EXIT;
+
+
+Setelah itu, buat folder Bernama connections yang berisi MySQL.js, tujuan ini adalah membuat koneksi antara server dan database
+dengan membuat konstan variable dimana tipe datanya adalah sebuah object JavaScript.
+Selanjutnya, file Server.js akan disambung dengan MySQL.js dengan menggunakan fungsi require.

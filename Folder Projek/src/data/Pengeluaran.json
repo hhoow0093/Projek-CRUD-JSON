@@ -1,0 +1,115 @@
+{
+  "total": 12,
+  "data": [
+    {
+      "id": "1",
+      "JenisPengeluaran": "makan",
+      "NominalPengeluaran": "Rp2.000",
+      "Tujuanpengeluaran": "Ingin makan",
+      "Bulan": "12",
+      "Hari": "Selasa",
+      "Tahun": "2023",
+      "Tanggal": "12/12/2023"
+    },
+    {
+      "id": "2",
+      "JenisPengeluaran": "transportasi",
+      "NominalPengeluaran": "Rp15.000",
+      "Tujuanpengeluaran": "Ojek ke kantor",
+      "Bulan": "08",
+      "Hari": "Senin",
+      "Tahun": "2024",
+      "Tanggal": "19/08/2024"
+    },
+    {
+      "id": "4",
+      "JenisPengeluaran": "hiburan",
+      "NominalPengeluaran": "Rp100.000",
+      "Tujuanpengeluaran": "Nonton bioskop",
+      "Bulan": "07",
+      "Hari": "Jumat",
+      "Tahun": "2024",
+      "Tanggal": "05/07/2024"
+    },
+    {
+      "id": "5",
+      "JenisPengeluaran": "kesehatan",
+      "NominalPengeluaran": "Rp250.000",
+      "Tujuanpengeluaran": "Beli obat",
+      "Bulan": "06",
+      "Hari": "Minggu",
+      "Tahun": "2024",
+      "Tanggal": "23/06/2024"
+    },
+    {
+      "id": "6",
+      "JenisPengeluaran": "pendidikan",
+      "NominalPengeluaran": "Rp500.000",
+      "Tujuanpengeluaran": "Biaya kursus",
+      "Bulan": "09",
+      "Hari": "Kamis",
+      "Tahun": "2024",
+      "Tanggal": "12/09/2024"
+    },
+    {
+      "id": "7",
+      "JenisPengeluaran": "olahraga",
+      "NominalPengeluaran": "Rp30.000",
+      "Tujuanpengeluaran": "Beli alat olahraga",
+      "Bulan": "10",
+      "Hari": "Sabtu",
+      "Tahun": "2024",
+      "Tanggal": "05/10/2024"
+    },
+    {
+      "id": "8",
+      "JenisPengeluaran": "internet",
+      "NominalPengeluaran": "Rp200.000",
+      "Tujuanpengeluaran": "Bayar tagihan internet",
+      "Bulan": "08",
+      "Hari": "Jumat",
+      "Tahun": "2024",
+      "Tanggal": "30/08/2024"
+    },
+    {
+      "id": "9",
+      "JenisPengeluaran": "hadiah",
+      "NominalPengeluaran": "Rp150.000",
+      "Tujuanpengeluaran": "Beli kado ulang tahun",
+      "Bulan": "11",
+      "Hari": "Kamis",
+      "Tahun": "2024",
+      "Tanggal": "21/11/2024"
+    },
+    {
+      "id": "10",
+      "JenisPengeluaran": "tabungan",
+      "NominalPengeluaran": "Rp1.000.000",
+      "Tujuanpengeluaran": "Menabung untuk masa depan",
+      "Bulan": "12",
+      "Hari": "Minggu",
+      "Tahun": "2024",
+      "Tanggal": "15/12/2024"
+    },
+    {
+      "id": "11",
+      "JenisPengeluaran": "minum",
+      "NominalPengeluaran": "Rp10.000",
+      "Tujuanpengeluaran": "Ingin minum",
+      "Bulan": "11",
+      "Hari": "Senin",
+      "Tahun": "2022",
+      "Tanggal": "03/12/2023"
+    },
+    {
+      "id": "12",
+      "JenisPengeluaran": "OLAHRAGA",
+      "NominalPengeluaran": "Rp200.000",
+      "Tujuanpengeluaran": "Ingin OLAHRAGA",
+      "Bulan": "12",
+      "Hari": "Minggu",
+      "Tahun": "2020",
+      "Tanggal": "12/10/2020"
+    }
+  ]
+}

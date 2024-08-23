@@ -1,0 +1,19 @@
+{
+  "name": "pengeluaran-duit",
+  "version": "1.0.0",
+  "description": "Membuat API Menyimpan Pengeluaran duit mahasiswa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Howard",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
